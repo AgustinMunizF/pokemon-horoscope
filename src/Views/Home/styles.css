@@ -1,0 +1,88 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.home-container h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.action-buttons {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  
+}
+
+.secondary-action {
+  margin-top: 2rem;
+}
+
+.action-button {
+  padding: 1.2rem 1.9rem;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  white-space: nowrap;
+  min-width: 300px;
+  justify-content: center;
+}
+.action-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 7px 15px rgba(0,0,0,0.15);
+}
+
+.search-button {
+  background-color: #0fcb5d; 
+  color: white;
+}
+
+.horoscope-button {
+  background-color: #1eccf4; 
+  color: white;
+}
+
+.favorite-button {
+  
+  background-color: #ff6b6b; 
+  color: white;
+
+}
+
+.pokemon-logo {
+  width: 500px;
+  margin-bottom: 1.5rem;
+}
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .action-buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .home-container h1 {
+    font-size: 2rem;
+  }
+  
+  .action-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+  }
+}
