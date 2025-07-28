@@ -16,10 +16,9 @@ Aplicación React para buscar Pokémon, consultar tu Pokémon según tu horósco
 ## Instalación
 
 1. Clonar el repositorio:
-2. instalar dependencias con npm install
+2. instalar dependencias con: npm install
 
 ## Ejecución
-
-- Con Docker: docker-compose up --build
-
-- Sin docker: npm start en la carpeta principal
+ejecutar en la carpeta principal: 
+- npm run dev
+- acceder a http://localhost:5173/
