@@ -15,7 +15,7 @@ Aplicación React para buscar Pokémon, consultar tu Pokémon según tu horósco
 
 ## Instalación
 
-1. Clonar el repositorio:
+1. Clonar el repositorio
 2. instalar dependencias con: npm install
 
 ## Ejecución
