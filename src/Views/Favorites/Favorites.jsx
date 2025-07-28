@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom'; // Añade useNavigate
+import { Link, useNavigate } from 'react-router-dom'; 
 import PokemonCard from '../../Components/PokemonCard/PokemonCard';
 import './styles.css';
 
 export default function Favorites() {
   const [favorites, setFavorites] = useState([]);
-  const navigate = useNavigate(); // Añade este hook
+  const navigate = useNavigate(); 
 
   useEffect(() => {
     const savedFavorites = JSON.parse(localStorage.getItem('pokemonFavorites')) || [];

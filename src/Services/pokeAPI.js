@@ -21,7 +21,7 @@ export const fetchPokemonByType = async (type) => {
     // Limitar a 30 resultados y ordenar por ID
     const limitedPokemon = data.pokemon
       .sort((a, b) => a.pokemon.url.split('/').slice(-2, -1)[0] - b.pokemon.url.split('/').slice(-2, -1)[0])
-      .slice(0, 30);
+      .slice(0, 150);
 
     return await Promise.all(
       limitedPokemon.map(async (entry) => {
