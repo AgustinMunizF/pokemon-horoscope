@@ -11,7 +11,7 @@ Aplicación React para buscar Pokémon, consultar tu Pokémon según tu horósco
 ## Requisitos
 
 - Node.js v16+
-- npm o yarn
+- npm 
 
 ## Instalación
 
